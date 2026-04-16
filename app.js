@@ -51,6 +51,6 @@ app.delete('/posts/:id', (req, res)=> {
 });
 
 const port = process.env.port || 3000;
-app.listen(port, () => {
+app.listen(port, '0.0.0.0' ,() => {
     console.log(`servidor rodando em http://localhost:${port}`);
 });
