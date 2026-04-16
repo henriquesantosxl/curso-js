@@ -1,5 +1,6 @@
 import express, { json } from 'express';
 const app = express();
+export default app;
 app.use(json());
 
 //"tabela" de posts
